@@ -16,7 +16,7 @@ steps:
 
 - script: |
     npm install
-    npm run build --mode $(BUILD_MODE)
+    npm run build $(BUILD_MODE)
   displayName: 'npm install and build'
 
 - task: ArchiveFiles@2
