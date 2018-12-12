@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Modify and trigger Build"/>
+    <HelloWorld msg="With CI"/>
   </div>
 </template>
 
