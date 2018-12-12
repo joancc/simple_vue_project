@@ -12,6 +12,9 @@ export default {
   name: "app",
   components: {
     HelloWorld
+  },
+  mounted() {
+    alert(process.env.VUE_APP_TITLE);
   }
 };
 </script>
